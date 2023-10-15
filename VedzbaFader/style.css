@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(red, yellow) no-repeat;
+    background-color: rgb(78, 78, 130);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: white;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+
+.card-image{
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.car-1{
+    background-image: url(../avdulj.jpg);
+}
+
+.car-2{
+    background-image: url('../ilija.jpg');
+}
+
+.car-3{
+    background-image: url(../hosic.jpg);
+}
+
+.card h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.card p{
+    padding: 10px;
+    text-align: center;
+}
+
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 90px 50px;
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}

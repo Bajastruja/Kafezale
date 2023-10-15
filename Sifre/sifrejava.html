@@ -1,0 +1,56 @@
+1. Da uidjes u konzolu - console.log("pisi sta oces");
+pop up - window.arelt("pisi sta oces");
+
+2. Varijable:
+let firstname = "Bro"; //strings
+let age = 21; //numbers
+let student = true; //booleans
+
+age = age + 1;
+
+console.log("Hello", firstname);
+console.log("You are", age, "years old");
+console.log("Enrolled:", student);
+
+
+document.getElementById("p1").innerHTML = "Hello " + firstname;
+document.getElementById("p2").innerHTML = "You are " + age + " years old";
+document.getElementById("p3").innerHTML = "Enrolled: " + student;
+
+3. Arithmetic expressions
+let students = 20;
+
+//students = students + 1;
+//students = students - 1;
+//students = students * 2;
+students = students / 2;
+
+console.log(students);
+
+ 4. user input 
+ let username = window.prompt("What's your name?");
+console.log(username);
+
+5. type conversions
+let age = window.prompt("How old are you?");
+
+console.log(typeof age);
+age = Number(age);
+console.log(typeof age);
+age += 1;
+
+console.log("Happy Birthday! You are", age, "years old");
+
+6. Const - ne moze da se promeni
+const PI = 3.14159;
+let radius;
+let circumference;
+
+radius = window.prompt("enter the radius of a circle");
+radius = Number(radius);
+
+circumference = 2 * PI * radius;
+
+console.log("The circumference is:", circumference);
+
+7. 

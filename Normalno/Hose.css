@@ -1,0 +1,197 @@
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(../slike/kafezalebre.png);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  nav{
+    background: rgba(80, 49, 190, 0.8);
+    height: 80px;
+    width: 100%;
+  }
+  
+  label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  
+  .navigacija:hover{
+    color: red;
+  }
+
+
+
+
+
+.hosici{
+display: flex;
+border: solid;
+border-color: blue;
+height: auto;
+width: auto;
+margin: 5px;
+padding: 5px;
+background-color: rgba(80, 49, 190, 0.8);
+}
+
+.hoseslika{
+height: 610px;
+width: 850px;
+}
+
+.hosetekst{
+margin: 5px;
+text-align: center;
+}
+
+
+
+.necudalazem{
+  display: flex;
+  height: auto;
+  width: auto;
+  background-color: rgba(80, 49, 190, 0.8);
+  margin: 20px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 200px;
+}
+
+.necudalazemslika{
+  height: 300px;
+  width: 400px;
+}
+
+.necudalazemtekst{
+  font-style: italic;
+  text-align: center;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+
+
+.napolje{
+  display: flex;
+  height: auto;
+  width: auto;
+  background-color: rgba(80, 49, 190, 0.8);
+  margin: 20px;
+  padding: 5px;
+  margin-left: 200px;
+  margin-right: 50px;
+}
+
+.napoljeslika{
+  height: 300px;
+  width: 400px;
+}
+
+.napoljetekst{
+  font-style: italic;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+
+
+.velik{
+  display: flex;
+  height: auto;
+  width: auto;
+  background-color: rgba(80, 49, 190, 0.8);
+  margin: 20px;
+  padding: 5px;
+  margin-left: 350px;
+  margin-right: 10px;
+}
+
+.velikslika{
+  height: 300px;
+  width: 400px;
+}
+
+.veliktekst{
+  font-style: italic;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
+.pisanje{
+    width: 200px;
+    height: 50px;
+    background-color: rgba(80, 49, 190, 0.8);
+    margin-left: 10px;
+  }
+
+.pisanje:hover{
+    color: red;
+}
+
+
+
+
+.vodazakafu{
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+  width: auto;
+  background-color: rgba(80, 49, 190, 0.8);
+  margin: 20px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.vodazakafu1{
+  height: 500px;
+  width: 700px;
+}
+
+.vodazakafu2{
+  height: 500px;
+  width: 700px;
+}
